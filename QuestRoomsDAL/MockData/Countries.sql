@@ -1,0 +1,15 @@
+insert into Countries (Name) values ('Indonesia');
+insert into Countries (Name) values ('France');
+insert into Countries (Name) values ('Indonesia');
+insert into Countries (Name) values ('Peru');
+insert into Countries (Name) values ('Ireland');
+insert into Countries (Name) values ('Philippines');
+insert into Countries (Name) values ('United States');
+insert into Countries (Name) values ('Japan');
+insert into Countries (Name) values ('Armenia');
+insert into Countries (Name) values ('Indonesia');
+insert into Countries (Name) values ('Russia');
+insert into Countries (Name) values ('Russia');
+insert into Countries (Name) values ('China');
+insert into Countries (Name) values ('Israel');
+insert into Countries (Name) values ('United States');

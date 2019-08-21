@@ -1,5 +1,6 @@
 namespace QuestRoomsDAL
 {
+    using QuestRoomsDAL.Configuration;
     using QuestRoomsDAL.Entities;
     using System;
     using System.Data.Entity;
@@ -9,6 +10,7 @@ namespace QuestRoomsDAL
     {      public RoomsContext()
             : base("name=RoomsContext")
         {
+            Database.SetInitializer(new DbInitializer());
         } 
       public DbSet<Company> Companies { get; set; }
         public DbSet<Foto> Fotos { get; set; }

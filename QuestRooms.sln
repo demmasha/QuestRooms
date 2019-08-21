@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestRoomsBLL", "QuestRooms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestRoomsUI", "QuestRoomsUI\QuestRoomsUI.csproj", "{F0906D37-CD3D-44C1-90EF-0A8B58AF6341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{376D4152-F522-43FA-A6F6-D14C730DBA9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F0906D37-CD3D-44C1-90EF-0A8B58AF6341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0906D37-CD3D-44C1-90EF-0A8B58AF6341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0906D37-CD3D-44C1-90EF-0A8B58AF6341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376D4152-F522-43FA-A6F6-D14C730DBA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376D4152-F522-43FA-A6F6-D14C730DBA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376D4152-F522-43FA-A6F6-D14C730DBA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376D4152-F522-43FA-A6F6-D14C730DBA9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

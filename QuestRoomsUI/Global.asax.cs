@@ -1,3 +1,4 @@
+using QuestRoomsUI.App_Start;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace QuestRoomsUI
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            AutoFacConfig.ConfigAutoFac();
         }
     }
 }
