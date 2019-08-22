@@ -36,6 +36,7 @@ namespace QuestRoomsUI.App_Start
             _builder.RegisterType<RoomsContext>().As<DbContext>();
             _builder.RegisterGeneric(typeof(GenericREpositoriy<>)).As(typeof(IGenericRepository<>));
             _builder.RegisterType<CityService>().As<ICityService>();
+            _builder.RegisterType<QuestRoomServis>().As<IQuestRoomServise>();
         }
     }
 }

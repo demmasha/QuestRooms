@@ -14,10 +14,15 @@ namespace QuestRoomsDAL.Configuration
 
         protected override void Seed(RoomsContext context)
         {
-            var dirPath = Assembly.GetExecutingAssembly().Location;
-            dirPath = Path.GetDirectoryName(dirPath);
-            context.Database.ExecuteSqlCommand(ReadFromFile(dirPath+ @"/MockData/Cities.sql"));
-            context.Database.ExecuteSqlCommand(ReadFromFile(dirPath + @"/MockData/Countries.sql"));
+            var dirPath = System.AppDomain.CurrentDomain.BaseDirectory + @"\bin\MockData\";
+            
+            context.Database.ExecuteSqlCommand(ReadFromFile(dirPath+ "Cities.sql"));
+            context.Database.ExecuteSqlCommand(ReadFromFile(dirPath + "Countries.sql"));
+            context.Database.ExecuteSqlCommand(ReadFromFile(dirPath + "Streets.sql"));
+            context.Database.ExecuteSqlCommand(ReadFromFile(dirPath + "Addresses.sql"));
+            context.Database.ExecuteSqlCommand(ReadFromFile(dirPath + "Companies.sql"));
+            context.Database.ExecuteSqlCommand(ReadFromFile(dirPath + "Rooms.sql"));
+
         }
 
         public string ReadFromFile(string v)

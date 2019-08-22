@@ -44,15 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DtoModels\AddressesDto.cs" />
+    <Compile Include="DtoModels\CompanyDto.cs" />
+    <Compile Include="DtoModels\CountryDto.cs" />
+    <Compile Include="DtoModels\FotoDto.cs" />
+    <Compile Include="DtoModels\RoomDto.cs" />
+    <Compile Include="DtoModels\StreetDto.cs" />
     <Compile Include="Mapping\MapperProfile.cs" />
-    <Compile Include="Services\Abstraction\CityDto.cs" />
+    <Compile Include="DtoModels\CityDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Abstraction\ICityService.cs" />
+    <Compile Include="Services\Abstraction\IQuestRoomServise.cs" />
     <Compile Include="Services\Implementation\CityService.cs" />
+    <Compile Include="Services\Implementation\QuestRoomServise.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DtoModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\QuestRoomsDAL\QuestRoomsDAL.csproj">
       <Project>{A8E55F83-54BA-4416-883E-244AB28B1FE0}</Project>

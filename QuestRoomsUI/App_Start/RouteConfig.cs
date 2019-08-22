@@ -16,7 +16,7 @@ namespace QuestRoomsUI
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "City", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "QuestRoom", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

@@ -12,7 +12,7 @@ namespace TestConsole
         static void Main(string[] args)
         {
             RoomsContext context = new RoomsContext();
-            foreach(var c in context.Cities)
+            foreach(var c in context.Rooms)
             {
                 Console.WriteLine(c.Name);
             }

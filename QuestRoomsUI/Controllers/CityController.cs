@@ -17,7 +17,12 @@ namespace QuestRoomsUI.Controllers
         public string Index()
         {
             var cityes = cityService.GetAllCities();
-            return  "hello";
+            string res = "";
+            foreach(var c in cityes)
+            {
+                res += $"{c.Name}<br>";
+            }
+            return  res;
         }
     }
 }

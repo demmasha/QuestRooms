@@ -1,0 +1,15 @@
+insert into Companies (Name) values ('Dabvine');
+insert into Companies (Name) values ('Realblab');
+insert into Companies (Name) values ('Bubblemix');
+insert into Companies (Name) values ('Quire');
+insert into Companies (Name) values ('Oyoloo');
+insert into Companies (Name) values ('Myworks');
+insert into Companies (Name) values ('Pixonyx');
+insert into Companies (Name) values ('Fatz');
+insert into Companies (Name) values ('Skivee');
+insert into Companies (Name) values ('Gabspot');
+insert into Companies (Name) values ('Voomm');
+insert into Companies (Name) values ('Kwideo');
+insert into Companies (Name) values ('Realbridge');
+insert into Companies (Name) values ('Photolist');
+insert into Companies (Name) values ('Layo');
